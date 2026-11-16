@@ -4,6 +4,23 @@
 
 TrustGate sits between an AI agent and MCP servers to help detect untrusted servers, unexpected tool changes, and prompt-injection content before it enters the agent's context.
 
+### DEMO OUTPUT 
+
+## HOLD
+<img width="802" height="832" alt="Screenshot 2026-09-11 074151" src="https://github.com/user-attachments/assets/bd5d1efd-0926-4f46-a8a0-55d163fb96c5" />
+
+## BLOCK
+<img width="806" height="875" alt="Screenshot 2026-09-11 074216" src="https://github.com/user-attachments/assets/1a2ac888-9a87-46ab-9137-47b8ee2a8760" />
+
+## ALLOW
+<img width="1491" height="782" alt="Screenshot 2026-09-11 074228" src="https://github.com/user-attachments/assets/84bd1769-79ca-429d-9623-0dc4584359e9" />
+
+## LIVE TERMINAL DASHBOARD
+<img width="1917" height="1018" alt="Screenshot 2026-09-11 100819" src="https://github.com/user-attachments/assets/886f639d-59f0-4000-a062-9bc663f8b923" />
+
+## LIVE WEB DASHBOARD
+<img width="1865" height="876" alt="Screenshot 2026-09-11 090325" src="https://github.com/user-attachments/assets/a628ae3d-e957-4966-8aea-f58a9228807e" />
+
 Built for **MEGATHON26 — Cyber PS2**.
 
 ---
@@ -63,7 +80,7 @@ The demo exercises the gateway against different server and tool conditions:
 | Suspicious tool description | Prompt-injection scanning |
 | Tool response content | Output sanitization before returning content to the agent |
 
-The policy layer reports the outcome as **ALLOW**, **HOLD**, or **BLOCK**. Demo output is illustrative and should not be interpreted as a performance benchmark.
+The policy layer reports the outcome as **ALLOW**, **HOLD**, or **BLOCK**. Demo output is illustrative and should not be interpreted as a performance benchmark. 
 
 ## Tech stack
 
@@ -155,6 +172,7 @@ TrustGate/
 TrustGate focuses on the **MCP tool and data channel**: server identity, tool metadata, and tool output. It does not sandbox MCP server code or replace operating-system-level isolation. A malicious server process may still require separate containment and permission controls.
 
 ## Team / event
+Team Leader  - V G SAIRAIMA ( SAVEETHA ENGINEERING COLLEGE )
 
 Developed for **MEGATHON26 — Cyber PS2**.
 
